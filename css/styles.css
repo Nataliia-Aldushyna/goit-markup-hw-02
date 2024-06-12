@@ -1,0 +1,21 @@
+:root {
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --accent-100: #4d5ae5;
+    --accent-200: #404bbf;
+    --main-100: #2e2f42;
+    --main-200: #434455;
+    --main-300: #8e8f99;
+    --main-400: rgba(46, 47, 66, 0.4);
+    --main-500: rgba(46, 47, 66, 0.7);
+    --light-100: #fff;
+    --light-200: #fcfcfc;
+    --light-300: #f4f4fd;
+    --light-400: #e7e9fc;
+    --system-100: #31d0aa;
+}
+
+body {
+  font-family: var(--primary-font);
+  font-family: var(--secondary-font);
+}
