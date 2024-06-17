@@ -17,5 +17,26 @@
 
 body {
   font-family: var(--primary-font);
+  color: var(--main-200);
+  background-color: var(--light-100);
+  display: block;
+  margin: 8px;
+}
+
+.logo {
   font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--accent-100);
+}
+
+.logo-dark {
+  color: var(--main-100);
+}
+
+a {
+  text-decoration: none;
 }
