@@ -37,6 +37,38 @@ body {
   color: var(--main-100);
 }
 
+.logo-light {
+  color: var(--light-300);
+}
+
 a {
   text-decoration: none;
+  color: currentColor;
+}
+
+.nav-menu-link {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.nav-menu-link:hover, .nav-menu-link:focus {
+    color: var(--accent-200);
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+address {
+  font-size: 16px;
+  font-weight: 400;
+}
+a.contacts-link {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-200);
+  font-size: 16px;
+  font-weight: 400;
 }
