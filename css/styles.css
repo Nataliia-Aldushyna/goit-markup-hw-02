@@ -62,6 +62,7 @@ ol {
 }
 
 address {
+  font-style: normal;
   font-size: 16px;
   font-weight: 400;
 }
@@ -77,11 +78,6 @@ a.contacts-link {
     background: var(--main-100);
 }
 
-h1,
-h2,
-h3 {
-  display: block;
-}
 .hero-title {
     font-size: 56px;
     line-height: 1.07;
@@ -106,7 +102,7 @@ h3 {
     color: var(--main-100);
 }
 
-.features-title, .team-card-title, .portfolio-title {
+.features-title, .team-title, .portfolio-title {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -119,7 +115,7 @@ h3 {
     background: var(--light-300);
 }
 
-.team-card-member {
+.team-member {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -128,7 +124,7 @@ h3 {
     color: var(--main-100);
 }
 
-.team-card-position {
+.team-position {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
