@@ -145,7 +145,7 @@ button {
     letter-spacing: 0.02em;
 }
 
-.features-description {
+.features-desc {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--dark-cl);
@@ -153,8 +153,12 @@ button {
 /* #endregion */
 
 /* #region Team */
-.team-card {
+.team {
     background: var(--secondary-cl);
+}
+
+.team-list {
+  background-color: var(--light-cl);
 }
 
 .team-member {
@@ -181,7 +185,7 @@ button {
     letter-spacing: 0.02em;
 }
 
-.portfolio-description {
+.portfolio-desc {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--dark-cl);
