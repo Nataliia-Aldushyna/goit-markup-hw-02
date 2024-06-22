@@ -5,7 +5,7 @@
 
       /* Colors */
     --primary-cl: #2e2f42;  
-    --secondary-cl: #f2f2fd;
+    --secondary-cl: #f4f4fd;
     --accent-cl-100: #4d5ae5;
     --accent-cl-200: #404bbf;
     --light-cl:  #ffffff;
@@ -41,7 +41,6 @@ button {
 /* #endregion */
 
 /* #region Common */
-.features-title,
 .team-title, 
 .portfolio-title {
     font-size: 36px;
