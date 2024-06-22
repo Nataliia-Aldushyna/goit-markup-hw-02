@@ -4,18 +4,18 @@
     --secondary-font: 'Raleway', sans-serif;
 
       /* Colors */
-    --primary-cl: rgb(46, 47, 66);  
-    --secondary-cl: rgb(244, 244, 253);
-    --accent-cl-100: rgb(77, 90, 229);
-    --accent-cl-200: rgb(64, 75, 191);
-    --light-cl:  rgb(255, 255, 255);
+    --primary-cl: #2e2f42;  
+    --secondary-cl: #f2f2fd;
+    --accent-cl-100: #4d5ae5;
+    --accent-cl-200: #404bbf;
+    --light-cl:  #ffffff;
     --dark-cl: #434455;
 }
 
 /* #region Base styles */
 body {
   font-family: var(--primary-font);
-  color: rgb(var(--dark-cl) / 100%);
+  color: var(--dark-cl);
   background-color: var(--light-cl);
 }
 
@@ -41,7 +41,6 @@ button {
 /* #endregion */
 
 /* #region Common */
-.features-title,
 .team-title, 
 .portfolio-title {
     font-size: 36px;
@@ -52,7 +51,7 @@ button {
     color: var(--primary-cl);
 }
 
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -63,7 +62,7 @@ button {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   overflow: hidden;
-}
+} */
 /* #endregion */
 
 /* #region Logo */
@@ -91,6 +90,7 @@ button {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--primary-cl);
 }
 
 .nav-menu-link:hover,
@@ -148,6 +148,7 @@ button {
 .features-desc {
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: var(--dark-cl);
 }
 /* #endregion */
 
@@ -156,7 +157,7 @@ button {
     background: var(--secondary-cl);
 }
 
-.team-list {
+.team-item {
   background-color: var(--light-cl);
 }
 
@@ -166,12 +167,14 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
+    color: var(--primary-cl);
 }
 
 .team-position {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
+    color: var(--dark-cl);
 }
 /* #endregion */
 
@@ -181,11 +184,13 @@ button {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: var(--primary-cl);
 }
 
 .portfolio-desc {
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: var(--dark-cl);
 }
 /* #endregion */
 
