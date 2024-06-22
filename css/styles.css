@@ -41,6 +41,7 @@ button {
 /* #endregion */
 
 /* #region Common */
+.features-title,
 .team-title, 
 .portfolio-title {
     font-size: 36px;
