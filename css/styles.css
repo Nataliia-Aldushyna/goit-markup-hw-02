@@ -63,20 +63,6 @@ button {
   clip-path: inset(50%);
   overflow: hidden;
 }
-
-.btn {
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: var(--light-cl);
-    background: var(--accent-cl-100);
-    /* border: 1px solid transparent; */
-}
-
-.btn:hover, 
-.btn:focus {
-    background: var(--accent-cl-200);
-}
 /* #endregion */
 
 /* #region Logo */
@@ -134,6 +120,20 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--light-cl);
+}
+
+.btn {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--light-cl);
+    background: var(--accent-cl-100);
+    /* border: 1px solid transparent; */
+}
+
+.btn:hover, 
+.btn:focus {
+    background: var(--accent-cl-200);
 }
 /* #endregion */
 
