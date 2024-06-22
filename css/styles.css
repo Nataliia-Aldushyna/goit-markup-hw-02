@@ -41,15 +41,7 @@ button {
 /* #endregion */
 
 /* #region Common */
-.team-title {
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    text-align: center;
-    color: #2e2f42;
-}
-
+.team-title,
 .portfolio-title,
 .features-title {
     font-size: 36px;
@@ -140,6 +132,7 @@ button {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: var(--primary-cl);
 }
 
 .features-desc {
