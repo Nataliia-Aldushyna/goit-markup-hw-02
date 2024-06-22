@@ -70,7 +70,7 @@ button {
     letter-spacing: 0.04em;
     color: var(--light-cl);
     background: var(--accent-cl-100);
-    border: 1px solid transparent;
+    /* border: 1px solid transparent; */
 }
 
 .btn:hover, 
