@@ -9,13 +9,14 @@
     --accent-cl-100: rgb(77, 90, 229);
     --accent-cl-200: rgb(64, 75, 191);
     --light-cl:  rgb(255, 255, 255);
-    --dark-cl: rgb(67, 68, 85);
+    --dark-cl: #434455;
 }
 
 /* #region Base styles */
 body {
   font-family: var(--primary-font);
-  color: rgb(var(--primary-cl) / 100%);
+  color: rgb(var(--dark-cl) / 100%);
+  background-color: var(--light-cl);
 }
 
 ul,
@@ -128,7 +129,6 @@ button {
     letter-spacing: 0.04em;
     color: var(--light-cl);
     background: var(--accent-cl-100);
-    /* border: 1px solid transparent; */
 }
 
 .btn:hover, 
@@ -148,7 +148,6 @@ button {
 .features-desc {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--dark-cl);
 }
 /* #endregion */
 
@@ -173,7 +172,6 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
-    color: var(--dark-cl);
 }
 /* #endregion */
 
@@ -188,7 +186,6 @@ button {
 .portfolio-desc {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--dark-cl);
 }
 /* #endregion */
 
