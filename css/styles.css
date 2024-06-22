@@ -41,6 +41,7 @@ button {
 /* #endregion */
 
 /* #region Common */
+.features-title
 .team-title, 
 .portfolio-title {
     font-size: 36px;
@@ -51,18 +52,6 @@ button {
     color: var(--primary-cl);
 }
 
-/* .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  overflow: hidden;
-} */
 /* #endregion */
 
 /* #region Logo */
@@ -154,7 +143,7 @@ button {
 
 /* #region Team */
 .team {
-    background: var(--secondary-cl);
+    background-color: var(--secondary-cl);
 }
 
 .team-item {
